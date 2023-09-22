@@ -16,7 +16,7 @@ This web application allows you to drag and drop the bottom sheet to it nearest 
 
 ## Deployment
 
-Deployed Link:-https://flameassignment-h4irvrbf3-abu1osama.vercel.app
+Deployed Link:-https://flameassignment-abu1osama.vercel.app
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ npm run start
 
 ## Usage
 
-- Visit the application in your web browser at http://localhost:3000 or the URL https://flameassignment-h4irvrbf3-abu1osama.vercel.app
+- Visit the application in your web browser at http://localhost:3000 or the URL https://flameassignment-abu1osama.vercel.app
 
 
 
