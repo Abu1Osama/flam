@@ -6,6 +6,8 @@ function App() {
   return (
        <div className='osama'>
        <BottomSheet/>
+
+       
        </div>
   );
 }

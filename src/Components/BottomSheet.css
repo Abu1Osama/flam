@@ -1,40 +1,43 @@
-
 .bottom-sheet {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #ffffff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.1);
-    overflow-y: hidden;
-    margin: 0 auto;
-    height: 5%;
-    transition: transform 0.3s ease-in-out, height 0.3s ease-in-out; 
-  }
-  
-  .bottom-sheet.visible {
-    transform: translateY(0%);
-  }
-  
-  .handle {
-    width: 50px;
-    height: 4px;
-    background-color: #ccc;
-    margin: 12px auto;
-    border-radius: 2px;
-    cursor: pointer;
-    position: relative;
-  }
-  .cut-sign{
-   
-    position: absolute;
-    right: 10px;
-    top: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    color: rgb(98, 98, 98);
-  }
-  
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgb(187, 187, 187);
+  overflow: hidden;
+  margin: 0 auto;
+  height: 40px;
+  transition: transform 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.bottom-sheet.visible {
+  transform: translateY(0%);
+}
+
+.handle {
+  width: 50px;
+  height: 4px;
+  background-color: #5a5a5a;
+  margin: 12px auto;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  /* margin-bottom: 50px; */
+}
+.cut-sign {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(98, 98, 98);
+}
+.content {
+  background: #000;
+}
